@@ -50,7 +50,6 @@ A modern, responsive analytics dashboard for a fictional SaaS product. This proj
 
    ```bash
    git clone https://github.com/majeeddl/analytics-dashboard-yq.git
-   cd analytics-dashboard-yq
    ```
 
 2. **Install dependencies:**
@@ -137,6 +136,12 @@ One E2E test has been implement by Playwright for showing how we can implement E
   ```
   This opens the Playwright UI for running and inspecting E2E tests interactively.
 
+## Live Demo
+
+This project is deployed on Vercel. You can view the live demo at the following link:
+
+> https://analytics-dashboard-yq.vercel.app/
+
 ## 🧑‍💻 Key Assumptions
 
 - Authentication is fully mocked; no real backend is used.
@@ -153,7 +158,6 @@ One E2E test has been implement by Playwright for showing how we can implement E
 - Add role-based access control for different user types.
 - Implement server-side pagination and filtering for large datasets.
 - Enhance accessibility (a11y) and add more comprehensive tests.
-- Deploy to a cloud platform with CI/CD.
 
 ---
 
