@@ -1,0 +1,76 @@
+{
+  "activeUsers": [
+    { "timeBucket": "2025-01-01T00:00:00Z", "value": 265 },
+    { "timeBucket": "2025-01-02T00:00:00Z", "value": 324 },
+    { "timeBucket": "2025-01-03T00:00:00Z", "value": 496 },
+    { "timeBucket": "2025-01-04T00:00:00Z", "value": 410 },
+    { "timeBucket": "2025-01-05T00:00:00Z", "value": 230 },
+    { "timeBucket": "2025-01-06T00:00:00Z", "value": 546 },
+    { "timeBucket": "2025-01-07T00:00:00Z", "value": 389 },
+    { "timeBucket": "2025-01-08T00:00:00Z", "value": 320 },
+    { "timeBucket": "2025-01-09T00:00:00Z", "value": 298 },
+    { "timeBucket": "2025-01-10T00:00:00Z", "value": 415 },
+    { "timeBucket": "2025-01-15T00:00:00Z", "value": 500 },
+    { "timeBucket": "2025-01-22T00:00:00Z", "value": 400 },
+    { "timeBucket": "2025-01-29T00:00:00Z", "value": 430 },
+    { "timeBucket": "2025-02-03T00:00:00Z", "value": 345 },
+    { "timeBucket": "2025-02-10T00:00:00Z", "value": 410 },
+    { "timeBucket": "2025-02-17T00:00:00Z", "value": 460 },
+    { "timeBucket": "2025-02-24T00:00:00Z", "value": 385 }
+  ],
+  "sectionData": [
+    {
+      "locationName": "Entrance Section",
+      "metrics": {
+        "waitTimeSeconds": 14,
+        "workForceUtilization": {
+          "total": 40,
+          "persons": [
+            {
+              "firstName": "Alice",
+              "lastName": "Alistair"
+            },
+            {
+              "firstName": "Bob",
+              "lastName": "Bastion"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "locationName": "Checkout Section",
+      "metrics": {
+        "waitTimeSeconds": 178,
+        "workForceUtilization": {
+          "total": 20,
+          "persons": [
+            {
+              "firstName": "Chair",
+              "lastName": "Colster"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "locationName": "Support Desk",
+      "metrics": {
+        "waitTimeSeconds": 273,
+        "workForceUtilization": {
+          "total": 40,
+          "persons": [
+            {
+              "firstName": "Dave",
+              "lastName": "Deportes"
+            },
+            {
+              "firstName": "Eny",
+              "lastName": "Ellior"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
